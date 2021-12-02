@@ -1,0 +1,23 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "Simple todo application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/sam338/todo-app.git"
+  },
+  "author": "sam@three38inc.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/sam338/todo-app/issues"
+  },
+  "homepage": "https://bitbucket.org/sam338/todo-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
