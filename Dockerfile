@@ -14,13 +14,14 @@ WORKDIR /usr/src/app
 COPY . .
 
 # Install all the dependencies for the app to run
-RUN npm install --production
+RUN npm install 
+# --production
 
 # Defining env variables. Most common way is to use a env file with `--env-file` flag or `-e` flag with env values directly specified in the command.
-ENV PORT 8888
+# ENV PORT 8888
 
 # Exposing port 
-EXPOSE ${PORT}
+EXPOSE 8000
 
 # Starting command specified. We can use `ENTRYPOINT` for the same purpose. This starts our application
 CMD [ "npm", "run", "start" ]
